@@ -1,0 +1,39 @@
+Image Upscaling Results
+=======================
+
+=== TESTOWANIE SKALI SZAROŚCI (ZADANIE PODSTAWOWE) ===
+
+Oryginalny obraz (Grayscale): rozdzielczość (160, 160)
+
+Po pomniejszeniu (Downscaled): rozdzielczość (80, 80)
+
+--- Testowanie interpolacji upscaller: triangle(t) ---
+MSE (triangle(t)): 84.2499
+rozdzielczość po powiększeniu: (160, 160)
+
+--- Testowanie interpolacji upscaller: cubic(t) ---
+MSE (cubic(t)): 70.5081
+rozdzielczość po powiększeniu: (160, 160)
+
+=== WYNIKI MSE (GRAYSCALE) ===
+triangle(t): 84.2499
+cubic(t): 70.5081
+
+=== TESTOWANIE ROZSZERZEŃ (KOLOR, MAX POOLING, ETC.) ===
+Obraz wejściowy: (160, 160, 4), typ: uint8
+
+--- TEST 1: Mean vs Max Pooling (Scale 2x) ---
+MSE (Mean Pooling + Cubic Upscale): 237.5950
+MSE (Max Pooling + Cubic Upscale): 649.4791
+
+--- TEST 2: Niecałkowite skalowanie (1.5x) ---
+Po zmniejszeniu 1.5x: (106, 106, 4)
+Po powiększeniu 1.5x: (159, 159, 4)
+MSE (Float Scaling): 327.3255
+
+--- TEST 3: Skalowanie sekwencyjne (Original rozdzielczość (160, 160) -> Up 4x rozdzielczość (640, 640)) ---
+Bezpośrednie 4x shape: (640, 640)
+MSE (Direct): 94.4105
+Sekwencyjne 4x shape: (640, 640)
+MSE (Sequential): 95.9824
+

@@ -1,0 +1,228 @@
+Interpolation Results
+=====================
+
+Function: sin(x)
+Kernel: box(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.002996
+------------------------------
+Function: sin(x)
+Kernel: box(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.002937
+------------------------------
+Function: sin(x)
+Kernel: box(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.002950
+------------------------------
+Function: sin(x)
+Kernel: box(t/2)
+Scale: 2x (64 -> 128 points)
+MSE: 0.000783
+------------------------------
+Function: sin(x)
+Kernel: box(t/2)
+Scale: 4x (64 -> 256 points)
+MSE: 0.000726
+------------------------------
+Function: sin(x)
+Kernel: box(t/2)
+Scale: 10x (64 -> 640 points)
+MSE: 0.000753
+------------------------------
+Function: sin(x)
+Kernel: triangle(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.000001
+------------------------------
+Function: sin(x)
+Kernel: triangle(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.000001
+------------------------------
+Function: sin(x)
+Kernel: triangle(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.000001
+------------------------------
+Function: sin(x)
+Kernel: sinc(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.000089
+------------------------------
+Function: sin(x)
+Kernel: sinc(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.000090
+------------------------------
+Function: sin(x)
+Kernel: sinc(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.000090
+------------------------------
+Function: sin(x)
+Kernel: cubic(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.000001
+------------------------------
+Function: sin(x)
+Kernel: cubic(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.000001
+------------------------------
+Function: sin(x)
+Kernel: cubic(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.000001
+------------------------------
+Function: sin(1/x)
+Kernel: box(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.031832
+------------------------------
+Function: sin(1/x)
+Kernel: box(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.049520
+------------------------------
+Function: sin(1/x)
+Kernel: box(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.052270
+------------------------------
+Function: sin(1/x)
+Kernel: box(t/2)
+Scale: 2x (64 -> 128 points)
+MSE: 0.031354
+------------------------------
+Function: sin(1/x)
+Kernel: box(t/2)
+Scale: 4x (64 -> 256 points)
+MSE: 0.036193
+------------------------------
+Function: sin(1/x)
+Kernel: box(t/2)
+Scale: 10x (64 -> 640 points)
+MSE: 0.039821
+------------------------------
+Function: sin(1/x)
+Kernel: triangle(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.019184
+------------------------------
+Function: sin(1/x)
+Kernel: triangle(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.027964
+------------------------------
+Function: sin(1/x)
+Kernel: triangle(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.030405
+------------------------------
+Function: sin(1/x)
+Kernel: sinc(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.018929
+------------------------------
+Function: sin(1/x)
+Kernel: sinc(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.025934
+------------------------------
+Function: sin(1/x)
+Kernel: sinc(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.029400
+------------------------------
+Function: sin(1/x)
+Kernel: cubic(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.020258
+------------------------------
+Function: sin(1/x)
+Kernel: cubic(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.028509
+------------------------------
+Function: sin(1/x)
+Kernel: cubic(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.031829
+------------------------------
+Function: sign(sin(8x))
+Kernel: box(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.656250
+------------------------------
+Function: sign(sin(8x))
+Kernel: box(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.656250
+------------------------------
+Function: sign(sin(8x))
+Kernel: box(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.656250
+------------------------------
+Function: sign(sin(8x))
+Kernel: box(t/2)
+Scale: 2x (64 -> 128 points)
+MSE: 0.250000
+------------------------------
+Function: sign(sin(8x))
+Kernel: box(t/2)
+Scale: 4x (64 -> 256 points)
+MSE: 0.343750
+------------------------------
+Function: sign(sin(8x))
+Kernel: box(t/2)
+Scale: 10x (64 -> 640 points)
+MSE: 0.337500
+------------------------------
+Function: sign(sin(8x))
+Kernel: triangle(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.219364
+------------------------------
+Function: sign(sin(8x))
+Kernel: triangle(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.238720
+------------------------------
+Function: sign(sin(8x))
+Kernel: triangle(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.220246
+------------------------------
+Function: sign(sin(8x))
+Kernel: sinc(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.204406
+------------------------------
+Function: sign(sin(8x))
+Kernel: sinc(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.222196
+------------------------------
+Function: sign(sin(8x))
+Kernel: sinc(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.205261
+------------------------------
+Function: sign(sin(8x))
+Kernel: cubic(t)
+Scale: 2x (64 -> 128 points)
+MSE: 0.224034
+------------------------------
+Function: sign(sin(8x))
+Kernel: cubic(t)
+Scale: 4x (64 -> 256 points)
+MSE: 0.247284
+------------------------------
+Function: sign(sin(8x))
+Kernel: cubic(t)
+Scale: 10x (64 -> 640 points)
+MSE: 0.227477
+------------------------------
